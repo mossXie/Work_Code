@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d350de8-953f-45ba-bfba-7bbcfba1175b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="无" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2csEqILTF8UeSfz94yW8BeLZNYt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ 文件.1.c.executor": "Run",
+    "C/C++ 文件.1_1.c.executor": "Run",
+    "C/C++ 文件.2_1.c.executor": "Debug",
+    "C/C++ 文件.2_16.c.executor": "Run",
+    "C/C++ 文件.2_2.c.executor": "Run",
+    "C/C++ 文件.3.cpp.executor": "Run",
+    "C/C++ 文件.L1.c.executor": "Debug",
+    "C/C++ 文件.ZhiShu.cpp.executor": "Debug",
+    "C/C++ 文件.name.cpp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "F:/HomeWork/c_work",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="C/C++ 文件.ZhiShu.cpp">
+    <configuration name="1_1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_work" TARGET_NAME="1_1.c" CONFIG_NAME="1_1.c">
+      <option name="sourceFile" value="1\1_1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_work" TARGET_NAME="1.c" CONFIG_NAME="1.c">
+      <option name="sourceFile" value="1\1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2_2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_work" TARGET_NAME="2_2.c" CONFIG_NAME="2_2.c">
+      <option name="sourceFile" value="2\2_2.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_work" TARGET_NAME="3.cpp" CONFIG_NAME="3.cpp">
+      <option name="sourceFile" value="LET_CODE\3.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_work" TARGET_NAME="L1.c" CONFIG_NAME="L1.c">
+      <option name="sourceFile" value="LET_CODE\L1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZhiShu.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_work" TARGET_NAME="ZhiShu.cpp" CONFIG_NAME="ZhiShu.cpp">
+      <option name="sourceFile" value="1\ZhiShu.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ 文件.ZhiShu.cpp" />
+        <item itemvalue="C/C++ 文件.1.c" />
+        <item itemvalue="C/C++ 文件.3.cpp" />
+        <item itemvalue="C/C++ 文件.2_2.c" />
+        <item itemvalue="C/C++ 文件.L1.c" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\shy\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d350de8-953f-45ba-bfba-7bbcfba1175b" name="Changes" comment="" />
+      <created>1708892075874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708892075874</updated>
+      <workItem from="1708892077049" duration="135000" />
+      <workItem from="1708892217634" duration="22000" />
+      <workItem from="1708892244149" duration="347000" />
+      <workItem from="1708897290137" duration="83000" />
+      <workItem from="1708897378401" duration="18000" />
+      <workItem from="1711329348168" duration="317000" />
+      <workItem from="1711329672517" duration="49000" />
+      <workItem from="1711329726745" duration="257000" />
+      <workItem from="1714400992042" duration="325000" />
+      <workItem from="1714401765387" duration="49000" />
+      <workItem from="1714409241410" duration="233000" />
+      <workItem from="1719099632561" duration="638000" />
+      <workItem from="1719103424450" duration="730000" />
+      <workItem from="1719153418952" duration="126000" />
+      <workItem from="1719153556185" duration="234000" />
+      <workItem from="1719161524279" duration="45000" />
+      <workItem from="1719161574580" duration="38000" />
+      <workItem from="1719199184243" duration="977000" />
+      <workItem from="1719200170558" duration="123000" />
+      <workItem from="1719200299275" duration="20000" />
+      <workItem from="1719200527884" duration="14000" />
+      <workItem from="1719226531041" duration="70000" />
+      <workItem from="1719226606317" duration="40000" />
+      <workItem from="1719226850617" duration="251000" />
+      <workItem from="1719512519022" duration="14000" />
+      <workItem from="1719569251878" duration="429000" />
+      <workItem from="1721963295843" duration="330000" />
+      <workItem from="1721963633336" duration="926000" />
+      <workItem from="1722084960342" duration="55000" />
+      <workItem from="1723203167103" duration="808000" />
+      <workItem from="1723375530406" duration="1358000" />
+      <workItem from="1723401287783" duration="2000" />
+      <workItem from="1723482134170" duration="93000" />
+      <workItem from="1723482907297" duration="344000" />
+      <workItem from="1723561095667" duration="551000" />
+      <workItem from="1723665515553" duration="22000" />
+      <workItem from="1723861067997" duration="62000" />
+      <workItem from="1723861223549" duration="235000" />
+      <workItem from="1723861645779" duration="17000" />
+      <workItem from="1723988575293" duration="934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/1/ZhiShu.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/1/ZhiShu.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/1/ZhiShu.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/1/ZhiShu.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
