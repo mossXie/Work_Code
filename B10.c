@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int cycleFlag = 0, zeroFlag = 0, fuhaoFlag = 0, numFlag = 0;
     char cr;
