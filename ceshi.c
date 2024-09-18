@@ -283,11 +283,35 @@ int main() {
         
     
     }*/
-#include <stdio.h>
-
+#include<stdio.h>
+  
 int main(){
-    int x;
-    float z;
-   scanf("%d %f", &x, &z);
-    printf("%d", x%2);
+    long long num, cycleFlag =0, sum = 0;
+    char ch;
+
+    while (((ch = getchar()) != '\n') && (ch != EOF))
+    {
+        if(ch == ' '){
+            break;;
+        }else{
+            ungetc(ch,stdin);
+        }
+        if ((scanf("%lld", &num)) == 0)
+        {
+            continue;
+        }else if ((cycleFlag % 2) ==1)
+        {
+            sum += num;
+        }else if ((cycleFlag % 2) == 0)
+        {
+            sum -= num;
+        }else if (cycleFlag == 0)
+        {
+            sum = num;
+        }
+        
+        cycleFlag++;
+    }
+    printf("%lld",sum);
+    return 0;
 }
