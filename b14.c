@@ -1,6 +1,6 @@
 #include <stdio.h>
 void printSumtime(int yy,int mm,int dd){
-    unsigned short sum = 0,pack_data = 0,mask = 1 <<(8*sizeof(short)-1);
+    unsigned short sum = 0,pack_data = 0,mask = 1 << (8*sizeof(short)-1);
 
     pack_data = (yy << 9) | (mm << 5) | dd;
     sum = pack_data;
@@ -10,7 +10,7 @@ void printSumtime(int yy,int mm,int dd){
         }else printf("0");
     }
     printf("\n");
-    printf("%hd",sum);
+    printf("%hu",sum);
 
 }
 int main(){

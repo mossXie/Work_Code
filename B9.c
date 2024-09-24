@@ -31,7 +31,7 @@ int main() {
 }
 
 long long sumCycle() {
-    char ch;
+    int ch;
     long long sum = 0;
     int cycleFlag = 0;
     while ((ch = getchar()) != ' ' && ch != '\n' && ch != EOF) {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int cycleFlag = 0, zeroFlag = 0, fuhaoFlag = 0, numFlag = 0;
-    char cr;
+    int cr;
 
     while ((cr = getchar()) != ' ' && cr != '\n' && cr != EOF) {
         cycleFlag += 1;
