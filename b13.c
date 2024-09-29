@@ -1,9 +1,9 @@
 #include <stdio.h>  
   
 void print_rwx(short num) {    
-    char result[9];
+    char result[10];
     int i;  
-    short mask = 0x100;// h 16  0-》0000 2
+    short mask = 0x100; // h 16  0-》0000 2
   
     for (i = 0; i < 9; i++) {  
         if ((num & mask) != 0) {  
