@@ -219,6 +219,9 @@ int main() {
     scanf("%d %d", &Row1, &Col1);
 
     mat1 = crtMatr(Row1, Col1);
+    if(mat1 == NULL){
+        return 1;
+    }
     for (int i = 0; i < Row1; i++) {
         for (int j = 0; j < Col1; j++) {
             scanf("%d", &mat1[i][j]);
@@ -228,6 +231,9 @@ int main() {
     scanf("%d %d", &Row2, &Col2);
 
     mat2 = crtMatr(Row2, Col2);
+    if(mat2 == NULL){
+        return 1;
+    }
     
     for (int i = 0; i < Row2; i++) {
         for (int j = 0; j < Col2; j++) {
@@ -257,11 +263,13 @@ int main() {
 int** crtMatr(int rows, int cols) {
     int** matrix = (int**)malloc(rows * sizeof(int*));
     if (matrix == NULL) {
+        printf("-1\n");
         return NULL;
     }
     for (int i = 0; i < rows; i++) {
         matrix[i] = (int*)malloc(cols * sizeof(int));
         if (matrix[i] == NULL) {
+            printf("-1\n");
             for (int j = 0; j < i; j++) {
                 free(matrix[j]);
             }
