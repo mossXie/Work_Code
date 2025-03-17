@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class Vector_2d{
 	public:
 		Vector_2d(double x = 0.,double y = 0.){
