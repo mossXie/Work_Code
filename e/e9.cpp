@@ -16,6 +16,9 @@ class Vector_2d{
 		const Vector_2d& operator+=(const Vector_2d& op);
 		Vector_2d operator*(double a) const;
 		friend Vector_2d operator*(double a,const Vector_2d & op);//внешняя функций
+		Vector_2d& operator++();
+		Vector_2d operator++(int);
+		friend ostream& operator<<(ostream& os, const Vector_2d& vec);
 	private:
 		double x_,y_;
 };
@@ -44,4 +47,19 @@ Vector_2d Vector_2d::operator*(double a) const{
 void Vector_2d::print(const char*str = 0)const{
 	if(str) cout << str << " = ";
 	cout << "(" << x_ << "," << y_ << ")" << endl;
+}
+Vector_2d& Vector_2d::operator++() {
+	x_ += 1;
+	y_ += 1;
+	return *this;
+}
+Vector_2d Vector_2d:: operator++(int) {
+	Vector_2d temp = *this;
+	x_ += 1;
+	y_ += 1;
+	return temp;
+}
+ostream& operator<<(ostream& os, const Vector_2d& vec) {
+    os << "(" << vec.x_ << ", " << vec.y_ << ")";
+    return os;
 }

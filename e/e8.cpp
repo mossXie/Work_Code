@@ -30,7 +30,7 @@ class mstring {
 
 mstring::mstring() : size(0) {
     data = new char[1];
-    data[0] = '1';
+    data[0] = '\0';
 }
 
 mstring::mstring(const mstring& other) {
@@ -54,7 +54,7 @@ int mstring::length() const {
 }
 
 bool mstring::isempty() const {
-    return size == 0;
+    return size == 0 ? true : false;
 }
 
 void mstring::add(char c) {
