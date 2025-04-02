@@ -78,8 +78,8 @@ public:
 };
 
 bool Parser::parseInput(const string& input, char& piece, char& fromName, int& fromNum, char& toName, int& toNum) {
-    string fromAddress = input.substr(2, 3); // 起始位置
-    string toAddress = input.substr(6);     // 目标位置
+    string fromAddress = input.substr(2, 3); 
+    string toAddress = input.substr(6);     
 
     piece = input[0];
 

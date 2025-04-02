@@ -3,7 +3,7 @@
 using namespace std;
 
 class event {
-protected:
+private:
     char name[100];
     int year, month, day;
 public:
@@ -65,7 +65,7 @@ public:
     }
 };
 
-/*int main()
+/* int main()
 {
         const int NUM =7;
         event *session[NUM];
@@ -94,4 +94,4 @@ public:
         for (int i=0;i<NUM;i++)
         delete session[i];
         return 0;
-}*/
+} */

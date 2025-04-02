@@ -66,7 +66,7 @@ class cylinder : public geometry{
         double h_;
     public:
         cylinder(double x, double y, double z, double r, double h) : geometry(x, y, z), r_(r), h_(h){}
-        void print(){
+        void print()const{
             geometry::print();
             cout << " r=" << r_ << " h=" << h_ << endl;
         }
@@ -79,7 +79,7 @@ class cylinder : public geometry{
         }
 };
 
-int main()
+/* int main()
 {
         ball ba(1,2,3,3);
         cube cu(2,1,3,2);
@@ -101,4 +101,4 @@ int main()
         cy.print();
 
         return 0;
-}
+} */
